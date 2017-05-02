@@ -1,0 +1,19 @@
+/*@import url('https://fonts.googleapis.com/css?family=Orbitron:500');*/
+@import url('https://fonts.googleapis.com/css?family=Play&subset=cyrillic');
+
+* {
+	position: relative;
+}
+
+html {
+	cursor: url(../src/cur.png), default;
+}
+
+body {
+	/*font-family:      'Orbitron', Arial, Helvetica, sans-serif;*/
+	font-family:      'Play', Arial, Helvetica, sans-serif;
+	font-weight:      400;
+	background-color: #1b1b1b;
+	font-size:        22px;
+	color:            #7e7e7e;
+}

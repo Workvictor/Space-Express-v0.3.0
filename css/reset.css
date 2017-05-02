@@ -1,0 +1,120 @@
+* {
+	margin:                0;
+	padding:               0;
+	border:                0;
+	-webkit-border-radius: 0;
+	-moz-border-radius:    0;
+	border-radius:         0;
+	font:                  inherit;
+	font-size:             100%;
+	vertical-align:        baseline;
+	-webkit-box-sizing:    border-box;
+	-moz-box-sizing:       border-box;
+	box-sizing:            border-box;
+}
+
+html {
+	line-height: 1;
+}
+
+body {
+	margin:  0;
+	padding: 0;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing:  0;
+}
+
+caption, th, td {
+	text-align:     left;
+	font-weight:    normal;
+	vertical-align: middle;
+}
+
+q, blockquote {
+	quotes: none;
+}
+
+q:before, q:after, blockquote:before, blockquote:after {
+	content: "";
+	content: none;
+}
+
+a img {
+	border: none;
+}
+
+a {
+	text-decoration: none;
+	cursor:          pointer;
+	color:           #000;
+}
+
+article, aside, details, figcaption, figure, footer, header, main, menu, nav, section, summary {
+	display: block;
+}
+
+select {
+	-webkit-appearance: none;
+	-moz-appearance:    none;
+	-ms-appearance:     none !important;
+	-o-appearance:      none;
+	-khtml-appearance:  none;
+	appearance:         none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+select, input {
+	background-color: #fff;
+	color:            #000;
+}
+
+a:active, a:focus {
+	outline: none;
+}
+
+input, textarea {
+	outline: none;
+}
+
+input:active, textarea:active {
+	outline: none;
+}
+
+:focus {
+	outline: none;
+}
+
+textarea {
+	resize: none;
+}
+
+textarea {
+	resize: vertical;
+}
+
+textarea {
+	resize: horizontal;
+}
+
+button:active, button:focus, select:active, select:focus {
+	outline: none !important;
+}
+
+button::-moz-focus-inner, select::-moz-focus-inner {
+	border: 0 !important;
+}
+
+select:-moz-focusring {
+	color:       transparent;
+	text-shadow: 0 0 0 #000;
+}
